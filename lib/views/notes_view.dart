@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:note_app/constents_file.dart';
 import 'package:note_app/widgets/add_note_button_sheet.dart';
 import 'package:note_app/widgets/notes_view_body.dart';
 
@@ -18,7 +19,7 @@ class NotesView extends StatelessWidget {
                 return const AddNoteButtonSheet();
               });
         },
-        backgroundColor: Colors.blue,
+        backgroundColor: KPrimaryColor,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(50),
         ),
