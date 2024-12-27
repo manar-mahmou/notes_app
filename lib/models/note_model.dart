@@ -11,3 +11,4 @@ class NoteModel {
     required this.color,
   });
 }
+
