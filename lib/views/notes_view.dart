@@ -19,7 +19,7 @@ class NotesView extends StatelessWidget {
                 return const AddNoteButtonSheet();
               });
         },
-        backgroundColor: KPrimaryColor,
+        backgroundColor: kPrimaryColor,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(50),
         ),
